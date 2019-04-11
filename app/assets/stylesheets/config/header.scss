@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 46px;
+  background-color: black;
+  color: white;
+  line-height: 46px;
+  .header_search {
+    width: 380px;
+    height: 34px;
+    border: 2px solid #505050;
+    border-radius: 30px;
+    background-color: #909090;
+    margin-left: 20px;
+  }
+  .header_btn {
+    width: 56px;
+    height: 28px;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    background-color: #909090;
+  }
+}

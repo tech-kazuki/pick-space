@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'config/reset';
+@import 'config/header';
+@import 'modules/contents';
+
+body {
+  background-color: #f0f0f0;
+}

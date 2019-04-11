@@ -1,0 +1,29 @@
+.content_over_link {
+  text-decoration: none;
+  color: black;
+}
+
+.contents {
+  width: 80vw;
+  min-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  .content {
+    width: 340px;
+    height: 390px;
+    background-color: white;
+    margin: 10px 10px;
+    position: relative;
+    &__title {
+      margin: 10px 10px;
+    }
+    &__source {
+      font-size: 10px;
+      position: absolute;
+      right: 0;
+      margin-right: 10px;
+      color: #b0b0b0;
+    }
+  }
+}
