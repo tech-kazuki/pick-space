@@ -4,7 +4,10 @@
     <img src="<%= content.image_url %>" alt="<%= content.title %>" width="340px" height="140px" style="">
   </div>
   <div class="content__title"><%= content.title %></div>
-  <time datetime="<%= content.up_time %>"></time>
-  <div class="content__source"><%= content.source %></div>
+  <div class="content__midle">
+    <time class="content__midle__time" datetime="<%= content.up_time %>"></time>
+    <div class="content__midle__source"><%= content.source %></div>
+  </div>
+  <hr width="300" size="1" color="#b0b0b0">
 </div>
 </a>

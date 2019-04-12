@@ -2,22 +2,44 @@ header {
   display: flex;
   justify-content: space-between;
   height: 46px;
+  width: 100vw;
   background-color: black;
   color: white;
   line-height: 46px;
+  box-shadow: 0 -9px 10px 10px #606060;
+  z-index: 1;
+  position: fixed;
+  top: 0;
   .header_search {
     width: 380px;
     height: 34px;
     border: 2px solid #505050;
     border-radius: 30px;
-    background-color: #909090;
+    color: #d0d0d0;
+    background-color: #303030;
     margin-left: 20px;
   }
-  .header_btn {
-    width: 56px;
-    height: 28px;
-    border: 1px solid #505050;
-    border-radius: 10px;
-    background-color: #909090;
+  h1 {
+    position: absolute;
+    left: 48%;
   }
+}
+
+.accbox input {
+    display: none;
+}
+
+.accbox .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
 }

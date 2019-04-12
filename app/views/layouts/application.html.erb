@@ -12,13 +12,14 @@
   <body>
     <header>
       <form>
-        <input type="text" name="search" class="header_search">
-        <input type="button" name="" value="検索" class="header_btn">
+        <input type="text" name="search" placeholder="  検索する" class="header_search">
       </form>
-      <a>
-        <h1>Pick-Space</h1>
-      </a>
-      <div class="my_config">name</div>
+      <h1>Pick-Space</h1>
+      <label for="label1">name</label>
+      <input type="checkbox" id="label1" class="cssacc" />
+        <div class="accshow">
+          <div class="my_config">ログアウト</div>
+        </div>
     </header>
     <%= yield %>
   </body>

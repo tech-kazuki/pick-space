@@ -4,7 +4,8 @@
 }
 
 .contents {
-  width: 80vw;
+  padding-top: 50px;
+  width: 65vw;
   min-width: 720px;
   margin: 0 auto;
   display: flex;
@@ -17,13 +18,22 @@
     position: relative;
     &__title {
       margin: 10px 10px;
+      min-height: 50px;
+      font-size: 20px;
+      line-height: 2rem;
+      font-weight: bold;
     }
-    &__source {
-      font-size: 10px;
-      position: absolute;
-      right: 0;
-      margin-right: 10px;
-      color: #b0b0b0;
+    &__midle{
+      &__source {
+        font-size: 10px;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        color: #b0b0b0;
+      }
+    }
+    hr {
+      margin-top: 30px;
     }
   }
 }
